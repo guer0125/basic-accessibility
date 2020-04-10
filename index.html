@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>basic-accessibility</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
 </head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link href="css/modules.css" rel="stylesheet">
 <body>
 
   <ul class="skip-links">
@@ -30,47 +30,39 @@
   Jump to navigation
 
 <main role="main" id="main" tabinex="0">
+  <img src="images/map.jpg" alt="" aria-details="countries">
   <section id="description" tabindex="0">
     <h2>Description</h2>
-  </section>
+
+    <div id="countries">
+      <h3>Some countries where pangolins are found</h3>
+      <ol>
+        <li>Botswana</li>
+        <li>Kenya</li>
+        <li>Mozambique</li>
+        <li>Namibia</li>
+        <li>South Africa</li>
+        <li>Tanzania</li>
+        <li>Uganda</li>
+        <li>Zambia</li>
+        <li>Zimbabwe</li>
+      </ol>
+    </div>
 
   <section id="behaviour" tabindex="0">
     <h2>Behaviour</h2>
+    <a href="https://en.wikipedia.org/wiki/Pangolin#behaviour" aria-label="Read more about Pangolin behaviour">Read more</a>
   </section>
 
   <section id="conservation" tabindex="0">
     <h2>Conservation</h2>
+    <a href="https://en.wikipedia.org/wiki/Pangolin#conservation" aria-label="Read more about Pangolin conservation">Read more</a>
   </section>
 </main>
 
 <footer role="contentinfo">
   <small>© 1821 Pangolin</small>
 </footer>
-
-
-
-  Some countries where pangolins are found
-  Botswana
-  Kenya
-  Mozambique
-  Namibia
-  South Africa
-  Tanzania
-  Uganda
-  Zambia
-  Zimbabwe
-
-
-  https://en.wikipedia.org/wiki/Pangolin#Behavior
-  Read more about Pangolin behaviour
-  Read more
-
-
-  https://en.wikipedia.org/wiki/Pangolin#Conservation
-  Read more about Pangolin conservation
-  Read more
-
-
 
 </body>
 </html>
